@@ -6,7 +6,7 @@
 </p>
 
 
-## For component in me:
+## For hobbies in me:
 
 <p align="center"> 
   <a href="https://github.com/znsoooo">
