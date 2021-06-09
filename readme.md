@@ -12,7 +12,7 @@
   <a href="https://github.com/znsoooo">
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=znsoooo&line_height=27" />
   </a>
-  <a href="https://github.com/znsoooo">
+  <a href="https://github.com/znsoooo?tab=repositories&type=source">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&langs_count=3" />
   <a href="https://github.com/znsoooo/toolkits">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits" />
