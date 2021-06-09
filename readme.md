@@ -1,10 +1,10 @@
-### Hi there 👋
+### Hi, I am lsx! 👋
 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api?username=znsoooo)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&layout=compact)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance)
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api?username=znsoooo)  
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&layout=compact)  
 
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits)  
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance)  
 
 
 - 🔭 I’m currently working on ...
@@ -15,3 +15,6 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+<!--&layout=compact-->
