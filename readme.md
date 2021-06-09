@@ -9,10 +9,17 @@
 ## For component in me:
 
 <p align="center"> 
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=znsoooo&line_height=27" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&langs_count=3" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance" />
+  <a href="https://github.com/znsoooo">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=znsoooo&line_height=27" />
+  </a>
+  <a href="https://github.com/znsoooo">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&langs_count=3" />
+  <a href="https://github.com/znsoooo/toolkits">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits" />
+  </a>
+  <a href="https://github.com/znsoooo/IDLE-Advance">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance" />
+  </a>
 </p>
 
 ## Else:
