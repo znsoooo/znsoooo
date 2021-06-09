@@ -6,7 +6,7 @@
 </p>
 
 
-## About me
+## For component in me:
 
 <p align="center"> 
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=znsoooo" />
@@ -15,7 +15,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance" />
 </p>
 
-## Else
+## Else:
 
 - 🔭 I’m currently working on C/C++ ...
 - 🌱 I’m currently learning Python ...
