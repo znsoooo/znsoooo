@@ -1,10 +1,21 @@
-### Hi, I am lsx! 👋
+# Hi, I am lsx! 👋
 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api?username=znsoooo)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits)
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance)
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/sagar-viradiya/count.svg" />
+</p>
 
+
+## About me
+
+<p align="center"> 
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=znsoooo" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&langs_count=3" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance" />
+</p>
+
+## Else
 
 - 🔭 I’m currently working on C/C++ ...
 - 🌱 I’m currently learning Python ...
