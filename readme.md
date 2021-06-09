@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api?username=znsoooo) 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&layout=compact) 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=github-readme-stats) 
-![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=anuraghazra.github.io) 
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api?username=znsoooo)
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&layout=compact)
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=znsoooo)
+![znsoooo's github stats](https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=znsoooo)
 
 
 
