@@ -14,8 +14,8 @@
   </a>
   <a href="https://github.com/znsoooo?tab=repositories&type=source">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=znsoooo&langs_count=3" />
-  <a href="https://github.com/znsoooo/toolkits">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=toolkits" />
+  <a href="https://github.com/znsoooo/lishixian">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=lishixian" />
   </a>
   <a href="https://github.com/znsoooo/IDLE-Advance">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=znsoooo&repo=IDLE-Advance" />
