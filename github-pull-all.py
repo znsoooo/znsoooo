@@ -44,3 +44,4 @@ if __name__ == '__main__':
     for repo_name in GetRepoList(user_name):
         print(f"Repo: '{repo_name}'")
         GetRepo(user_name, repo_name)
+    os.system('pause')

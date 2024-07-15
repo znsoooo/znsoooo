@@ -22,4 +22,3 @@ for name in os.listdir():
         os.chdir('..')
 
 os.system('pause')
-
