@@ -13,7 +13,7 @@ def RetryPopen(cmd):
     while True:
         ret = popen(cmd)
         print(textwrap.indent(ret, '  '))
-        if not re.search(r'^fatal:', ret, re.M):
+        if not re.search(r'^fatal: (unable to access|expected flush) ', ret, re.M):
             return
 
 
