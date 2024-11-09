@@ -18,12 +18,12 @@ def RetryPopen(cmd):
 
 
 def GetRepoList(user_name):
-    url = f'https://api.github.com/users/{user_name}/repos'
+    url = f'https://api.github.com/users/{user_name}/repos?sort=updated&direction=asc&per_page=100'
     headers = {'Accept': 'application/vnd.github.v3+json'}
     request = urllib.request.Request(url, headers=headers)
     data = urllib.request.urlopen(request).read()
     repos = json.loads(data)
-    for repo in sorted(repos, key=lambda item: item['updated_at'], reverse=True):
+    for repo in repos:
         if not repo['fork']:
             yield repo['name']
 
