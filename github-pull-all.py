@@ -12,9 +12,9 @@ popen = lambda cmd: subprocess.Popen(cmd, -1, None, -1, -1, -2, shell=True).stdo
 def RetryPopen(cmd):
     while True:
         ret = popen(cmd)
-        print(textwrap.indent(ret, '  '))
+        print(textwrap.indent(ret.rstrip(), '  '))
         if not re.search(r'^fatal: (unable to access|expected flush) ', ret, re.M):
-            return
+            return print()
 
 
 def GetRepoList(user_name):
@@ -32,7 +32,7 @@ def GetRepo(user_name, repo_name):
     url = f'https://github.com/{user_name}/{repo_name}/'
     if os.path.isdir(repo_name):
         os.chdir(repo_name)
-        RetryPopen(f'git pull {url}')
+        RetryPopen(f'git pull')
         os.chdir('..')
     else:
         RetryPopen(f'git clone {url}')
