@@ -9,7 +9,7 @@ os.chdir('..')
 for name in os.listdir():
     if os.path.isdir(name):
         os.chdir(name)
-        log = popen('git log --oneline origin...head')
+        log = popen('git.exe log --oneline origin...head')
         if log:
             print(f"Repo '{name}':")
             print(textwrap.indent(log, '  '))
