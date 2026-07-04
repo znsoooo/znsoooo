@@ -32,18 +32,17 @@ graph TD
 - [x] <!--20210508--> https://github.com/znsoooo/IDLE-Advance
 - [x] <!--20211029--> https://github.com/znsoooo/lishixian
 - ★★★
-- [ ] <!--20240809--> https://github.com/znsoooo/npp-select-in-brackets
+- [x] <!--20240809--> https://github.com/znsoooo/npp-select-in-brackets
 
 ### Desktop Application
 - ★★★★★
 - [x] <!--20220426--> https://github.com/znsoooo/qr-desktop
 - [x] <!--20230421--> https://github.com/znsoooo/regex-matcher
 - [x] <!--20230811--> https://github.com/znsoooo/find-in-files
+- [x] <!--20260501--> https://github.com/znsoooo/localsend
 - ★★★
 - [x] <!--20190406--> https://github.com/znsoooo/contacts
 - [x] <!--20190511--> https://github.com/znsoooo/qrcode
-- [ ] <!--20231002--> https://github.com/znsoooo/ChangelistCommitter
-- [ ] <!--20240101--> https://github.com/znsoooo/mini-editor
 - [x] <!--20240831--> https://github.com/znsoooo/binary-image-viewer
 - [ ] <!--20241207--> https://github.com/znsoooo/double-check
 - ★
@@ -51,8 +50,12 @@ graph TD
 - [x] <!--20221228--> https://github.com/znsoooo/wordle-assistant
 - [x] <!--20231216--> https://github.com/znsoooo/2048
 - [x] <!--20231216--> https://github.com/znsoooo/yolo-labeling
+- [ ] <!--20240101--> https://github.com/znsoooo/mini-editor
+- [x] <!--20250531--> https://github.com/znsoooo/VideoMarker
+- [x] <!--20250815--> https://github.com/znsoooo/FaceMatch
 - ×
 - [x] <!--20221112--> https://github.com/znsoooo/ImageClassifier
+- [ ] <!--20231002--> https://github.com/znsoooo/ChangelistCommitter
 
 ### Tool Box
 - ★★★★★
@@ -80,6 +83,7 @@ graph TD
 - [ ] <!--20210609--> https://github.com/znsoooo/znsoooo
 - [ ] <!--20220226--> https://github.com/znsoooo/blog
 - [ ] <!--20241206--> https://github.com/znsoooo/color
+- [ ] <!--20260201--> https://github.com/znsoooo/principles
 
 ### Only Test
 - ★
