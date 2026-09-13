@@ -1,5 +1,6 @@
 import os
 import re
+import ssl
 import json
 import textwrap
 import subprocess
@@ -18,10 +19,10 @@ def RetryPopen(cmd, cwd=None):
 
 
 def GetRepoList(user_name):
-    url = f'https://api.github.com/users/{user_name}/repos?sort=updated&direction=dsc&per_page=100'
+    url = f'https://api.github.com/users/{user_name}/repos?sort=updated&direction=desc&per_page=100'
     headers = {'Accept': 'application/vnd.github.v3+json'}
     request = urllib.request.Request(url, headers=headers)
-    data = urllib.request.urlopen(request).read()
+    data = urllib.request.urlopen(request, context=ssl._create_unverified_context()).read()
     repos = json.loads(data)
     for repo in repos:
         if not repo['fork']:
