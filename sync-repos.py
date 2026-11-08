@@ -134,6 +134,8 @@ def DownloadGithubRepo(owner, repo):
         RunGit('pull', cwd=repo_dir)
         return f'已拉取 {repo_dir}'
     os.makedirs('repos', exist_ok=True)
+    with open('repos/.gitignore', 'w') as f:
+        f.write('*')
     RunGit(f'clone {clone_url} {repo_dir}')
     return f'已克隆 {repo_dir}'
 
@@ -146,6 +148,8 @@ def DownloadGithubReleases(owner, repo):
         return '无 releases'
     rel_base = f'repos/{repo}/releases'
     os.makedirs(rel_base, exist_ok=True)
+    with open(f'{rel_base}/.gitignore', 'w') as f:
+        f.write('*')
     print(f'[信息] 开始下载 releases: {owner}/{repo} ({len(rels)} 个)')
     for rel in rels:
         tag = rel['tag_name']
@@ -381,27 +385,47 @@ def DeleteGiteeRepo(owner, repo):
 def SyncRepo(owner, repo, dest_repo=None):
     dest = dest_repo or repo
     local_dir = f'repos/{repo}'
-    desc = f'Synced from https://github.com/{owner}/{repo}'
+    desc = f'Synced from: https://github.com/{owner}/{repo}'
 
+    print('=' * 20)
     DownloadGithubRepo(owner, repo)
     DownloadGithubReleases(owner, repo)
-    # print('-' * 20)
 
+    print('-' * 20)
     PushGitcodeRepo(owner, dest, local_dir, desc)
     UploadGitcodeReleases(owner, dest, owner, repo)
     # DeleteGitcodeRepo(owner, dest_repo)
-    print('-' * 20)
 
+    print('-' * 20)
     PushGiteeRepo(owner, dest, local_dir, desc)
     UploadGiteeReleases(owner, dest, owner, repo)
     # DeleteGiteeRepo(owner, dest_repo)
-    print('-' * 20)
 
 
 if __name__ == '__main__':
     if len(sys.argv) >= 3:
         owner, repo = sys.argv[1], sys.argv[2]
         dest = sys.argv[3] if len(sys.argv) >= 4 else None
+        SyncRepo(owner, repo, dest)
     else:
-        owner, repo, dest = 'znsoooo', 'regex-matcher', 'regex-matcher-sync-test'
-    SyncRepo(owner, repo, dest)
+        repos = [
+            # 本项目
+            'znsoooo',
+
+            # Python库
+            'lishixian', 'IDLE-Advance',
+
+            # Python项目
+            'regex-matcher', 'find-in-files', 'binary-image-viewer',
+            'mini-editor', 'yolo-labeling', 'toolkits', 'contacts',
+
+            # C/C++项目
+            'npc', 'ocr', '2048', 'c-utils', 'localsend',
+            'qr-desktop', 'npp-select-in-brackets',
+
+            # Android开发
+            'qrscan', 'lanserver',
+        ]
+        owner = 'znsoooo'
+        for repo in repos:
+            SyncRepo(owner, repo)
